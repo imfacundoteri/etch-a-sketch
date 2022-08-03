@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #2c3333;
+}
+
+.container {
+  display: grid;
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  border: 2px solid #a5c9ca;
+  background-color: #395b64;
+}
+
+.set-grid__btn {
+  display: block;
+  margin: 10px auto;
+  font-size: 1em;
+  padding: 5px;
+  background-color: #395b64;
+  border: 1.5px solid #a5c9ca;
+  color: #e7f6f2;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.cell {
+  text-align: center;
+}
